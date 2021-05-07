@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:background="@drawable/restaurant"
+        android:scaleType="centerCrop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LJ Restaurant"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_alignParentTop="true"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opening Time : 5AM to 12PM"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="7sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="27dp"
+        android:paddingRight="27dp"
+        android:paddingTop="27dp"
+        android:fontFamily="cursive"
+        android:text="Speciality:-\n\t\t\t\t\t\t\t In our Resta Kaju and Rabdi Kulfi and Indian food is most famous.And We can serve all countries food.Our restaurant is also a Cafe."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:fontFamily="cursive"
+        android:padding="27dp"
+        android:text="Contect Information:-\n\t\t\t\t\t\t\t Contect number for Booking = +919079050683\n\t\t\t\t\t\t\t Email-Id = hs098605@gmail.com\n\nAddress:- On National Highway NH-11, Near by Sewar Fort, Bharatpur."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
